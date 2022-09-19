@@ -1,7 +1,7 @@
 <template>
   <div class=" text-2xl p-4">
     <div>username: {{payload.UserInfo.username}}</div>
-    <div>id: {{payload.UserInfo.id}}</div>
+    <div>id: {{payload.UserInfo.userId}}</div>
     <div>email: {{payload.UserInfo.email}}</div>
   </div>
 </template>
